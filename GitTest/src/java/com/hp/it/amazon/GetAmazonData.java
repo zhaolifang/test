@@ -18,10 +18,9 @@
 //
 //            ResponseHandler<String> responseHandler = new ResponseHandler<String>(){
 //
-//            
-//                public String handleResponse(HttpResponse httpResponse) throws ClientProtocolException, IOException {
-//                    int status = httpResponse.getStatusLine().getStatusCode();
-//                    if (status >= 200 && status < 300) {
+         
+               int status = httpResponse.getStatusLine().getStatusCode();
+                  if (status >= 200 && status < 300) {
 //                        HttpEntity entity = httpResponse.getEntity();
 //                        InputStream content;
 //                        if (entity != null){
